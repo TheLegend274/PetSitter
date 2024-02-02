@@ -1,0 +1,107 @@
+* {
+  background-color: var(--color-white);
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+  --color-white: #f1ede8;
+  --color-background: #81959d;
+  --color-border-for-button: #0f172a;
+  --color-error: #f80c0c;
+}
+
+.ID_ErrorLabel
+{
+  color:var(--color-error);
+  font-size: 12px;
+}
+
+.header {
+  background-color: var(--color-background);
+  background-size: 150px;
+  height: 950px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+.header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+/* Form on the main page*/
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.box .inputBox input {
+  width: 200px;
+  margin-top: 25px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  color: var(--color-border-for-button);
+  background: none;
+
+  border: 2px solid var(--color-border-for-button);
+}
+
+.form {
+  margin-bottom: 100px;
+}
+
+.Username {
+  width: 600px;
+  margin-bottom: 15px;
+  height: 30px;
+  border-radius: 4px;
+  border: var(--color-border-for-button) solid thin;
+}
+
+.Password {
+  width: 600px;
+  margin-bottom: 15px;
+  height: 30px;
+  border-radius: 4px;
+  border: var(--color-border-for-button) solid thin;
+}
+
+/*Submit button*/
+.btn {
+  cursor: pointer;
+  padding: 8px 14px;
+  margin-left: 1px;
+  border: 2.5px solid var(--color-border-for-button);
+  box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 var(--color-border-for-button);
+  transition-duration: 200ms;
+  border-radius: 3px;
+  color: var(--color-border-for-button);
+}
+
+.btn:hover {
+  box-shadow: 3px 3px white, 6px 6px 0 0 var(--color-border-for-button);
+  transform: translate(-2px, -2px);
+}
+.box h2 {
+  color: var(--color-border-for-button);
+}
+
+.inputBox span {
+  color: var(--color-border-for-button);
+}

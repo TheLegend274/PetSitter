@@ -1,0 +1,98 @@
+* {
+  background-color: var(--color-white);
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--color-background);
+}
+
+:root {
+  --color-white: #f1ede8;
+  --color-background: #81959d;
+  --color-border-for-button: #0f172a;
+}
+
+.header {
+  background-color: var(--color-background);
+  background-size: 150px;
+  height: 950px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+.logoutbtn
+{
+  cursor: pointer;
+  padding: 8px 14px;
+  border: 2.5px solid var(--color-border-for-button);
+  box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 var(--color-border-for-button);
+  transition-duration: 200ms;
+  border-radius: 3px;
+  color: var(--color-border-for-button);
+  padding-bottom: 10px;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  top: 10%;
+  margin: 0;
+}
+
+.logoutbtn button {
+  border: none;
+}
+
+.logoutbtn:hover {
+  box-shadow: 3px 3px white, 6px 6px 0 0 var(--color-border-for-button);
+  transform: translate(-2px, -2px);
+}
+
+
+.header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.header h3 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 800px;
+  border-radius: 10px;
+  margin-top: 100px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.box h1 {
+  text-align: center;
+}
+
+.box2 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+  width: 800px;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.order h1 {
+  text-align: center;
+  padding-top: 20px;
+}
